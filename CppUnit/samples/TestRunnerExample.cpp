@@ -1,5 +1,3 @@
-
-
 #include "ExampleTestCase.h"
 #include "TestTest.h"
 #include "MulticasterTest.h"
@@ -17,4 +15,5 @@ int main (int ac, char **av)
     runner.addTest ("MulticasterTest", MulticasterTest::suite ());
     runner.addTest ("TestTest", TestTest::suite ());
     return runner.run (ac, av);
+    cout<<"Hello World";
 }
